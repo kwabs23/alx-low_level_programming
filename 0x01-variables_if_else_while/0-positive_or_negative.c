@@ -4,13 +4,13 @@
 
 
 /**
- * * main - Prints a random number decides whether it is positive,negative,orzero.
+ * * main - Prints a random number decides for positive or negative.
  * *
  * * Return: Always 0.
- * */
+ */
 int main(void)
 {
-	int n;
+		int n;
 
 		srand(time(0));
 		n = rand() - RAND_MAX / 2;
